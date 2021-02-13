@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/Home"
+        android:title="All Items"
+        android:actionLayout="@layout/activity_item__list" />
+
+    <item android:id="@+id/Wines"
+        android:title="Wines"
+        android:actionLayout="@layout/activity_wine_" />
+
+    <item android:id="@+id/Beers"
+        android:title="Beers"
+        android:actionLayout="@layout/activity_beers_activity" />
+
+    <item android:id="@+id/Hard_Drinks"
+        android:title="Hard Drinks"
+        android:actionLayout="@layout/activity_hard_drinks_activity"/>
+
+    <item android:id="@+id/Cart"
+        android:title="Added Carts"
+        android:actionLayout="@layout/activity_cartlist_"/>
+
+    <item android:id="@+id/userprofile"
+        android:title="Profile"
+        android:actionLayout="@layout/activity_user_profile"
+        />
+
+    <item android:id="@+id/Map"
+        android:title="Location"
+        android:actionLayout="@layout/activity_map"
+        />
+
+
+    <item android:id="@+id/Logout"
+        android:title="Logout"
+        />
+
+</menu>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="10dp"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:textStyle="italic"
+            android:background="@color/blue_a400"
+            android:hint="username"
+            android:id="@+id/eduser"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:background="@color/blue_a400"
+            android:layout_marginTop="55dp"
+            android:hint="Password"
+            android:id="@+id/edpassword"/>
+
+    <Button
+        android:id="@+id/btnlog"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/grey"
+        android:hint="Login"
+        android:textSize="10dp"
+        android:layout_marginTop="80dp"/>
+
+</androidx.wear.widget.BoxInsetLayout>
