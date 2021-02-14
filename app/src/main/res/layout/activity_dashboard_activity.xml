@@ -45,10 +45,10 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Sample Products"
+                    android:text="Our Sample Products"
                     android:background="#2471A3"
                     android:textAlignment="center"
-                    android:textColor="#FDFEFE"
+                    android:textColor="#FF0000"
                     android:textSize="20sp" />
 
                 <ScrollView
@@ -109,7 +109,7 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
                     android:textAlignment="center"
                     android:textStyle="bold"
                     android:background="#06F806"
-                    android:text="Select best Drink Best"/>
+                    android:text="Choose your Best Drink"/>
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:layout_width="match_parent"
