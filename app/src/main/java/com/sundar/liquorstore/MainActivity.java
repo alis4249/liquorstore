@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
         Notification notification = new NotificationCompat.Builder(this, Channel.Channel_2)
                 .setSmallIcon(R.drawable.ic_arrow_downward_black_24dp)
                 .setContentTitle("Login HERE")
-                .setContentText("Use your Proper UserName Aad password..Thank YOU!!!")
+                .setContentText("Use your Proper UserName And password..Thank YOU!!!")
                 .setCategory(NotificationCompat.CATEGORY_MESSAGE)
                 .build();
         notificationManagerCompat.notify(1, notification);
